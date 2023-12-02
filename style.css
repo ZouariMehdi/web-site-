@@ -1,0 +1,181 @@
+* {
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+body {
+    background-repeat: no-repeat;
+    background-image: url(/images/bg-header-desktop.png);
+    background-size: cover;
+    margin: 0;
+}
+/* start heading page */
+.landing-page {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 80vh;
+}
+.landing-page > img {
+    margin: 60px 0;
+}
+@media (max-width: 576px) {
+    .landing-page > img {
+        max-width: 90px;
+        margin: 25px;
+    }
+}
+
+.landing-page > h1 {
+    color: #4e5358;
+    margin: 40px 0px;
+}
+@media (max-width: 576px) {
+    .landing-page > h1 {
+        color: #4e5358;
+        margin: 15px 0px;
+        font-size: 30px;
+    }
+}
+.landing-page > p {
+    width: 70%;
+    line-height: 1.8;
+    color: #4e5358a7;
+    margin: 30px auto;
+}
+@media (max-width: 576px) {
+    .landing-page > p {
+        width: 95%;
+        line-height: 1.8;
+        color: #4e5358a7;
+        margin: 10px auto;
+    }
+}
+.landing-page button {
+    padding: 15px 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.landing-page button:nth-of-type(1) {
+    background-color: #61cabc;
+}
+.landing-page button:nth-of-type(2) {
+    background-color: #8896ff;
+}
+.landing-page .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* for small devices from 0 to 576px do this  */
+@media (max-width: 576px) {
+    .landing-page .btn-container {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+}
+/* end heading page */
+/* start section one */
+.container {
+    width: 80%;
+    margin: auto;
+}
+.section-one {
+    text-align: center;
+}
+.section-one h2 {
+    color: #4e5358;
+}
+.section-one p {
+    color: rgba(78, 83, 88, 0.768);
+    line-height: 1.8;
+}
+/* end section one */
+/* start section two */
+.section-two {
+    display: flex;
+    gap: 35px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+@media (max-width: 576px) {
+    .section-two {
+        flex-direction: column;
+    }
+}
+.section-two .box > p {
+    line-height: 1.8;
+}
+.section-two > div {
+    width: 50%;
+}
+@media (max-width: 576px) {
+    .section-two > div {
+        width: 100%;
+    }
+}
+.section-two > .col-img > img {
+    max-width: 100%;
+    margin-left: -35px;
+}
+
+@media (max-width: 576px) {
+    .section-two > .col-img > img {
+        margin: 0;
+    }
+}
+@media (max-width: 576px) {
+    .section-two > .col-text {
+        text-align: center;
+    }
+}
+/* end section two */
+/*section four*/
+.sec-four img {
+    max-width: 100%;
+    margin: 50px 0;
+}
+/* end section four */
+/* start section five */
+.sec-five .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.sec-five .container .card p {
+    line-height: 1.8;
+}
+
+@media (max-width: 576px) {
+    .sec-five .container {
+        flex-direction: column;
+    }
+} /* end section five */
+
+/* start footer */
+footer {
+    background-color: #f5f6f8;
+    padding: 20px;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 576px) {
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+footer .container > div > a {
+    display: block;
+    margin: 10px;
+}
+.sm img {
+    margin: 10px;
+}
+/* end footer */
